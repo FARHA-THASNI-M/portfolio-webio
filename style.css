@@ -1,0 +1,261 @@
+::-webkit-scrollbar {
+    width: 10px;   
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(0, 0, 0, 0.938);
+  }
+::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 255, 255, 0.911);
+    
+}
+
+body{
+  
+  background-image: linear-gradient(to bottom, #151616 15%,#eb551a9a);
+  
+}
+
+#header {
+    position: fixed;
+    top: 4.5%;
+    left: 2%;
+    bottom: 4.5%;
+    width: 300px;
+    transition: all ease-in-out 0.5s;
+    z-index: 999;
+    transition: all 0.5s;
+    padding: 0 15px;
+    background: #353434;
+    overflow-y: auto;
+    border-radius: 10px;
+    
+  }
+.profile img {
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 5%;
+    width: 150px;
+    height: 150px;
+    border:none;
+    border-radius:50%
+  }
+  
+.profile h1 a{
+    font-size: 25px;
+    margin: 0;
+    padding: 20px;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    text-decoration: none;
+    
+  }
+  
+.profile h1 a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+.profile .social-links a {
+    font-size: 23px;
+    display: inline-block;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    line-height: 100%;
+    padding: 6.3px;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    
+    }
+  
+  .profile .social-links a:hover {
+    background: #000000;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  @media (min-width: 992px) {
+    .collapse.dont-collapse-md {
+      display: block;
+      height: auto !important;
+      visibility: visible;
+    }
+  }
+  
+
+  .nav-menu{
+      position: absolute;
+      top: 260px;
+      
+    }
+
+  .nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+ 
+  .nav-menu a {
+    display: flex;
+    align-items: center;
+    color: #a08e8e;
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  
+  .nav-menu a i {
+    font-size: 15px;
+    padding-right: 12px;
+    color: #ffffffbd;
+    text-decoration: none;
+  }
+  
+  .nav-menu a:hover i, .nav-menu > a i, .nav-menu li:hover > a i {
+    color: #e69e7ca8;
+  }
+  
+  
+  .navbar-toggler{
+      position: fixed;
+      right: 15px;
+      top: 15px;
+      width: 5px;
+      height: 27px;
+      background-color: transparent;
+      border: none;
+      color: white;
+  }
+  .navbar-toggler:hover{
+    border: none;
+    background-color: rgba(0, 0, 0, 0.719);
+  }
+  .fa-bars{
+    position: relative;
+    right: 15px;
+    }
+ 
+
+  #home{
+    width: 100%;
+    height: 100vh;
+    background: url("images/img3.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2%;
+    
+  }
+  .hero{
+    text-align: center;
+    z-index: -1;
+  }
+  .name h1,p{
+    color: whitesmoke;
+  
+  }
+  #about{
+    width: 100%;
+    height: 100vh;
+    background: url("images/bg.jpg");
+    border-radius: 2%;
+  }
+  #Skills{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(70, 129, 156);
+    border-radius: 2%;
+    color: azure;
+    
+  }
+  .fa-js-square,.fa-css3-alt,.fa-html5{
+    font-size: 30px;
+    padding: 0px;
+    padding-top: 40px;
+    padding-left: 20px; 
+    color: rgb(123, 129, 129);
+  }
+  .html,.css,.js{
+    width: 500px;
+    height: 120px;
+    border:2px solid aqua;
+    margin: 10px;
+    color: azure;
+    box-shadow: -5px 6px rgb(0, 243, 252);
+    border-radius: 5px;
+  }
+  
+  .html:hover,.css:hover,.js:hover{
+    padding-left: 30px;
+    transition: all 0.7s;
+
+  }
+
+  .certificate{
+    text-decoration: none;
+    color: azure;
+  }
+  .certificate:hover{
+   color: rgba(216, 165, 63, 0.432);
+  }
+  
+  #Works{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(55, 96, 151);
+    border-radius: 2%;
+    color: azure;
+    overflow: auto;
+  }
+  .imglink{
+    text-decoration: none;
+    color: rgba(153, 60, 54, 0.555);
+  }
+  .imglink:hover{
+    color: crimson;
+    text-decoration: underline;
+  }
+
+  #Contact{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(26, 67, 114);
+    border-radius: 2%;
+    color: azure;
+    overflow: auto;
+   
+   }
+
+   .add{
+     display: block;
+   }
+
+   #adds{
+      width: 30%;
+      
+   }
+   .con{
+     color: rgb(136, 96, 104);
+     text-decoration: none;
+   }
+   .con:hover{
+      font-size: 16.5px;
+      color: rgba(255, 254, 255, 0.315);;
+   }
+  
+   .soc{
+     color: azure;
+     padding: 10px;   
+   }
+
+   .soc:hover{
+     color: rgba(187, 49, 49, 0.397);
+     font-size: 20px;
+   }
